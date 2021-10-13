@@ -49,11 +49,11 @@ body {
 .grid a {
 	background-color:#eceeef;
 	color:#818a91;
-	font-size:50px;
+	font-size:45px;
 	display:inline-block;
-	line-height:75px;
-	width: 75px;
-	height:75px;
+	line-height:80px;
+	width: 80px;
+	height:80px;
 	text-align:center;
 	margin-right:10px;
 	border-radius:100%;
@@ -63,25 +63,25 @@ body {
 }
 
 .grid a.home:hover {
-	background-color:#3b5998
+	background-color:#4285F4
 }
 
 .grid a.contact:hover {
-	background-color:#00aced
+	background-color:#4285F4
 }
 
 .grid a.user:hover {
-	background-color:#007bb6
+	background-color:#0F9D58
 }
   
 .grid a.stats:hover{
-	background-color:#007bb6
+	background-color:#F4B400
 }
 
 .grid a.report:hover{
-	background-color:#4285F4
+	background-color:#DB4437
 }
 
 .grid a.privacy-policy:hover{
-	background-color:#4285F4
+	background-color:#DB4437
 }
