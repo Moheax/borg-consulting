@@ -57,10 +57,65 @@ body {
 	text-align:center;
 	margin-right:10px;
 	border-radius:100%;
+	border: solid 0px;
 	-webkit-transition:all .2s linear;
 	-o-transition:all .3s linear;
 	transition:all .3s linear
 }
+
+@media only screen and (max-width: 600px) {
+	/* Menu grid */
+	.container { 
+		width:auto;
+		height:auto;
+		margin: 0px;    
+		position: absolute;
+		right: 10%;          
+		bottom: 30%;            
+		text-align:right; 
+	}
+
+	.container h1{
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight: bold;
+		color:#d8d8d8;
+		font-size: 55px;
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 30px;
+	}
+	.grid {
+		display: grid;
+		align-content: center;
+		grid-template-columns: auto auto auto;
+		grid-gap: 10px;
+		padding-left:0;
+		margin-bottom:0;
+		list-style:none
+	}
+	
+	.grid li {
+		display:inline-block;
+		margin-bottom:4px
+	}
+	
+	.grid a {
+		background-color:#eceeef;
+		color:#818a91;
+		font-size:18px;
+		display:inline-block;
+		line-height:50px;
+		width: 50px;
+		height:50px;
+		text-align:center;
+		margin-right:10px;
+		border-radius:100%;
+		border: solid 0px;
+		-webkit-transition:all .2s linear;
+		-o-transition:all .3s linear;
+		transition:all .3s linear
+	}
+  }
 
 .grid a.home:hover {
 	background-color:#4285F4
