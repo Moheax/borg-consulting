@@ -1,5 +1,5 @@
 body { 
-	background-image: url(img/cover-img.png);
+	background-image: url(../img/cover-img.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
@@ -15,4 +15,9 @@ p {
 	align-items: center;
 	flex-direction: column;
 	color: greenyellow;
+}
+
+/* Menu grid */
+.container { 
+	background:grey;
 }
